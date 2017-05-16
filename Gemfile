@@ -9,6 +9,7 @@ gem 'sinatra-contrib'
 
 # Adding thin gem as advised
 gem 'thin'
+gem 'byebug'
 
 # Adding ActiveRecord and Database Components
 gem 'activerecord'
@@ -35,3 +36,4 @@ group :production do
 	gem 'rails_12factor' # Heroku Gem Supports
 	gem 'puma' # Using puma for
 end
+
